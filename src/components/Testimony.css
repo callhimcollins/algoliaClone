@@ -1,0 +1,117 @@
+.testimony {
+    background:-moz-radial-gradient(ellipse at 25% 70%, rgba(11, 21, 53, 1) 0%, rgba(5, 29, 103, 1) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(ellipse at 25% 70%, rgba(11, 21, 53, 1) 0%, rgba(5, 29, 103, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(ellipse at 25% 70%, rgba(11, 21, 53, 1) 0%, rgba(5, 29, 103, 1) 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(ellipse at 25% 70%, rgba(11, 21, 53, 1) 0%, rgba(5, 29, 103, 1) 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(ellipse at 25% 70%, rgba(11, 21, 53, 1) 0%, rgba(5, 29, 103, 1) 100%);
+
+    margin: 30px;
+    border-radius: 20px;
+    display: flex;
+    position: relative;
+}
+
+
+.testimony img {
+    border-top-right-radius: 700px;
+    border-bottom-right-radius: 700px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.testimony__contentContainer {
+    color: white;
+    width: 50%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 100px;
+}
+
+.testimony__contentContainer img {
+    width: 200px;
+    height: 30px;
+    object-fit: contain;
+}
+
+.testimony__contentContainer p {
+    font-size: 22px;
+    line-height: 23px;
+    /* background-color: rgba(37, 37, 37, 0.199); */
+}
+
+.testimony__contentContainer a {
+    color: white;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 110px;
+}
+
+
+
+
+.navigateLeft {
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    background-color: var(--primary-color);
+    padding: 10px;
+    border-radius: 40px;
+    display: flex;
+    border-bottom: 3px solid #0936bb;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+
+.navigateRight {
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    background-color: var(--primary-color);
+    padding: 10px;
+    border-radius: 40px;
+    display: flex;
+    border-bottom: 3px solid #0936bb;
+    
+
+}
+
+
+@media only screen and (max-width: 920px) {
+    .testimony__user {
+        margin: 50px ;
+    }
+    .testimony__contentContainer a {
+        text-align: center;
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 870px) {
+    .testimony {
+        flex-wrap: wrap;
+    }
+    .testimony img {
+        width: 100%;
+        border-bottom-left-radius: 0;
+    }
+}
+

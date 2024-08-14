@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  margin: 0;
+  font-family: 'Sora', 'Inter';
+  font-size: 15px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root {
+  --primary-color: #003FFF;
+  --secondary-color: #35385C;
+}

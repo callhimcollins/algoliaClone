@@ -1,0 +1,39 @@
+.thirdbutton {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.thirdbutton button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border: none;
+    border-bottom: 3px solid rgb(240, 240, 240);
+    padding: 13px 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 7px;
+    margin-right: 5px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+
+}
+
+.thirdbutton button p {
+    font-family: 'Sora', 'Inter';
+    font-weight: 600;
+    font-size: 13px;
+    color: #071538;
+    margin-right: 3px;
+    letter-spacing: 2.7px;
+}
+
+
+.thirdbutton button:hover {
+    transition: 300ms;
+    transform: translate(0, -5px);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+
+}

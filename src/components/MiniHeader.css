@@ -1,0 +1,87 @@
+.miniheader__maincontainer {
+    display: flex;
+    justify-content: center;
+    border-bottom: .5px solid rgb(228, 228, 228);
+    padding: 1px 10px;
+}
+
+.miniheader__contentcontainer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.miniheader__leftcontent {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.miniheader__leftcontent p {
+    color: var(--secondary-color);
+    font-weight: 500;
+}
+
+.miniheader__leftcontent span {
+    color: var(--primary-color);
+    margin-right: 3px;
+    font-weight: 600;
+}
+
+.miniheader__leftcontent a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #777BB4;
+}
+
+.miniheader__rightcontent {
+    display: flex;
+    align-items: center;
+}
+
+.miniheader__rightcontent a {
+    font-size: 14px;
+    border-right: .7px solid rgb(233, 233, 233);
+    padding: 4px 14px;
+    color: #334B7B;
+}
+
+.miniheader__rightcontent a:hover {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.miniheader__rightcontent div {
+    margin-left: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    color: #334B7B;
+}
+
+.miniheader__rightcontent div p {
+    margin: 0 4px;
+}
+
+.login p:hover {
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.language:hover {
+    background-color: rgb(241, 241, 241);
+    border-radius: 8px;
+}
+
+
+@media only screen and (max-width: 1180px) {
+    .miniheader__maincontainer {
+        display: none;
+    }
+}
