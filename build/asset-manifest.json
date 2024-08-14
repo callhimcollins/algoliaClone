@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/algoliaclone/static/css/main.10f60f97.css",
+    "main.js": "/algoliaclone/static/js/main.929582d0.js",
+    "static/media/banner-image.avif": "/algoliaclone/static/media/banner-image.49c561ce2e54ce38ce62.avif",
+    "static/media/slideimage1.png": "/algoliaclone/static/media/slideimage1.cec7575316d849c17e17.png",
+    "static/media/algoliamain.avif": "/algoliaclone/static/media/algoliamain.949f3827332ba2f00b4c.avif",
+    "static/media/algoliamain.png": "/algoliaclone/static/media/algoliamain.08ce13293addccb6fab4.png",
+    "static/media/globehomepage.avif": "/algoliaclone/static/media/globehomepage.ba1d782373c049f4e803.avif",
+    "static/media/algoliasmall.png": "/algoliaclone/static/media/algoliasmall.f34b00ee78051f9575fe.png",
+    "static/media/algoliarecommend.svg": "/algoliaclone/static/media/algoliarecommend.5243007c00daacee312534e899a7c7ed.svg",
+    "static/media/harry.webp": "/algoliaclone/static/media/harry.a2da096ee2bf2664b8ec.webp",
+    "static/media/gymshark.svg": "/algoliaclone/static/media/gymshark.3a8f25a543a464636d755a7ade278853.svg",
+    "static/media/footermobilebackground.svg": "/algoliaclone/static/media/footermobilebackground.00bbe3e58c137530e748.svg",
+    "static/media/footerbackground.svg": "/algoliaclone/static/media/footerbackground.548ad00599f48cc9c30a.svg",
+    "static/media/mercari.svg": "/algoliaclone/static/media/mercari.92e425cbea232ddf8d79b84858618342.svg",
+    "index.html": "/algoliaclone/index.html",
+    "static/media/Algolia-mark-white.svg": "/algoliaclone/static/media/Algolia-mark-white.02e43c09632c5ee782c9b5090d4e19c0.svg",
+    "main.10f60f97.css.map": "/algoliaclone/static/css/main.10f60f97.css.map",
+    "main.929582d0.js.map": "/algoliaclone/static/js/main.929582d0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.10f60f97.css",
+    "static/js/main.929582d0.js"
+  ]
+}
